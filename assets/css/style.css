@@ -24,6 +24,8 @@
 
   --small-font-size: 0.9em;
   --normal-font-size: 1em;
+
+  --html: #f16529;
 }
 
 * {
@@ -334,7 +336,7 @@ li {
 .experience .line div {
   width: 2px;
   height: 24%;
-  background: var(--first-color);
+  background: var(--tersier);
   position: absolute;
   grid-column: 4;
   justify-self: center;
@@ -440,7 +442,18 @@ li {
 }
 
 /* Skill Section */
+.skills .container .content {
+  width: 100%;
+}
 
+.front-end h4 label {
+  background: var(--tersier);
+  color: var(--primer);
+  font-size: var(--normal-font-size);
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
 /* End of Experience & Skills */
 
 /* Contact section */
@@ -494,22 +507,27 @@ li {
 /* Footer */
 footer {
   margin-bottom: 0;
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
-.footer-icons {
-  margin-bottom: 1rem;
+.footer-icons h4 {
+  margin-bottom: 20px;
 }
 
-.footer-icons a {
+.footer-icons {
+  margin-bottom: 5rem;
+}
+
+.footer-icons img {
   margin: 0 0.5rem;
 }
 
-.footer-icons a:hover {
+.footer-icons img:hover {
   fill: var(--tersier);
 }
 
 .footer-icons {
   fill: grey;
 }
+/* End Footer */
