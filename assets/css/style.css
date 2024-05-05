@@ -443,15 +443,6 @@ li {
 .skills .container .content {
   width: 100%;
 }
-
-.front-end h4 label {
-  background: var(--tersier);
-  color: var(--primer);
-  font-size: var(--normal-font-size);
-  font-weight: 400;
-  padding: 5px 15px;
-  border-radius: 5px;
-}
 /* End of Experience & Skills */
 
 /* Contact section */
